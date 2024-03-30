@@ -6,10 +6,6 @@ import org.springframework.web.client.RestTemplate;
 
 @RestController
 public class NagerApiController {
-
-  //  @RequestMapping(value = "/AvailableCountries", method = RequestMethod.GET)
-   // @ResponseBody
-    //@GetMapping(value = "/AvailableCountries")
     @RequestMapping(value = "/AvailableCountries", method = RequestMethod.GET)
     public String AvailableCountries() {
         String url = "/AvailableCountries";
